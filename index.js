@@ -23,10 +23,5 @@ channel.send(`
 }
 });
 ///
-client.on('messageCreate', async(message) => {
-  if(message.author.bot) return;
-  if(message.content === "$Wait" || message.content === "$wait" ) {
-    message.reply(`**ئەگەر لە ماوەی 30 خولەکدا وەڵام نەدرایەوە ئەوا بلیتەکە دادەخرێت بەهۆی فشاری بلیتەکانەوە، وە سوپاس بۆ تێگەیشتنتان**`)
-  }
-  })
-client.login(`OTQyMDA0NjE4NDY3MTE1MDE4.GZ5PCl.wjRg8IfxYP_gIldIHphE604eZuwWcpepfo3uIM`)
+
+client.login(``)
